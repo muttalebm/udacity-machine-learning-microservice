@@ -8,8 +8,7 @@ dockerpath=muttalebm/machine-learning-microservice
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker tag machine-learning-microservice:latest $dockerpath
+docker login --username muttalebm && docker tag machine-learning-microservice:latest $dockerpath
 # Step 3:
 # Push image to a docker repository
 docker push $dockerpath
- 
