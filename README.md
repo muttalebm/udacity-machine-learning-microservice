@@ -36,9 +36,10 @@ Udacity project submission for Microservices at Scale Using Kubernetes
 * `app.py` the main python file that runs the prediction API.
 * `Dockerfile` containerizes the python project and exposes the API on port 80
 * `make_prediction.sh` tests the API by making a HTTP post request to the `/predict` api
+* `make_prediction_kubernetes.sh` tests the API by making a HTTP post request to the `/predict` api for kubernetes cluster
 * `makefile` The Makefile includes instructions on environment setup and lint tests
 * `requirements` python dependencies
 * `run_docker.sh` a script that builds the docker image and runs a container
 * `run_kubernates.sh` deploys the project to a Kubernetes cluster
 * `upload_docker.sh` uploads the image to dockerhub
-* `docker_out.txt` and `kubernetes_out.txt` contains output of run_docker and run_kubernetes commands
+* `docker_out.txt` and `kubernetes_out.png` contains output of run_docker and run_kubernetes commands
